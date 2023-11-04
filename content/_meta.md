@@ -1,5 +1,6 @@
 ---
-Logo: image/../themes/shared/img/shrimp.png
+Logo: image/shrimp.png?w=100
+David: image/david.jpg
 Tagline: My portfolio.
 Social:
     - title: Länk till mitt github repo.

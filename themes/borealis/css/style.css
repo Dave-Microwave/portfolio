@@ -94,7 +94,7 @@ body {
 /* Img of me */
 
 .david {
-    width: 20%;
+    max-width: 20%;
     margin-top: 2%;
 }
 
