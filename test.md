@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Design med HTML5 och CSS3</title>
     <link rel="stylesheet" href="style.min.css">
-    <link rel="stylesheet" href="normalize.min.css">
+    <!-- <link rel="stylesheet" href="normalize.min.css"> -->
 </head>
 <body>
     <header>
@@ -20,6 +20,11 @@
     <footer>
         <p>&copy; dbwebb</p>
     </footer>
+
+    <div class="one contentBox">1</div>
+    <div class="two contentBox">2</div>
+    <div class="three borderBox">3</div>
+    <div class="four borderBox">4</div>
 
 </body>
 </html>

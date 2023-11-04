@@ -22,7 +22,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(124, 174, 218);
+    background-color: rgb(180, 188, 196);
 }
 
 .main {
@@ -35,14 +35,28 @@ body {
 
 /* Header */
 
+.header {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .header, .site-header {
     display: flex;
     justify-content: space-between;
 }
 
+/* Logo */
+
+.logo {
+    width: 7vw;
+    align-items: center;
+    display: flex;
+    margin-right: 1em;
+}
+
 /* Title */
 
-.title, .logo {
+.title {
     padding: 3em 3em 3em 0;
 }
 
@@ -62,8 +76,26 @@ body {
     color: #111;
 }
 
+
 .title p {
     font-style: italic;
+}
+
+
+/* Main */
+
+.main {
+    background-color: rgb(149, 189, 158);
+    width: 80%;
+    margin: 3em auto;
+    padding: 3%;
+}
+
+/* Img of me */
+
+.david {
+    width: 20%;
+    margin-top: 2%;
 }
 
 /* Footer */
