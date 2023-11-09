@@ -1,8 +1,10 @@
 ---
-Title: Docs
+Title: Pico docs
 Description: Documentation that came with Pico.
 # hidden: true
 ---
+
+<main markdown="1">
 
 ## Welcome to Pico
 
@@ -412,3 +414,5 @@ For more help have a look at the Pico documentation at http://picocms.org/docs.
 [ModRewrite]: https://httpd.apache.org/docs/current/mod/mod_rewrite.html
 [AllowOverride]: https://httpd.apache.org/docs/current/mod/core.html#allowoverride
 [NginxConfig]: http://picocms.org/in-depth/nginx/
+
+</main>

@@ -1,0 +1,17 @@
+img {
+    max-width: 100%;
+}
+.david {
+    width: 10rem;
+}
+i {
+    font-size: xx-large;
+    transition-duration: .3s;
+}
+i:hover {
+    transform: scale(1.25);
+    transition-duration: .3s;
+}
+.header img {
+    filter: drop-shadow(1px 1px 5px $accent-color)
+}

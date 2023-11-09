@@ -1,0 +1,22 @@
+body {
+    background-color: $background-alternative-color;
+    margin: 0 auto;
+    width: 80%;
+}
+main {
+    background-color: $background-color;
+    padding: 3%;
+    margin: 0 auto 2%;
+    color: $font-alternative-color;
+    min-height: 50vh;
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: $accent-color;
+}
+
+a:active {
+    color: $accent-color-2;
+}
