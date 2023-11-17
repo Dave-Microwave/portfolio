@@ -6,11 +6,15 @@ body {
 
 main {
     background-color: $background-color;
-    padding: 3%;
-    margin: 0 auto 2%;
+    padding: 1.5em;
+    margin: auto;
     color: $font-alternative-color;
     min-height: 50vh;
     border-radius: 2px;
+}
+
+div {
+    color: $font-alternative-color;
 }
 
 a {

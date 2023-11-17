@@ -1,0 +1,113 @@
+/* 
+Nu har jag visat grunden för att ni ska kunna göra er landningssida.
+I uppgiften så ska ni lösa så den fungerar repsponsivt och mitt tips är att kolla lite extra på grid-column: span X.
+Testa runt tillsammans med media queries. Lycka till!
+*/
+
+.grid div {
+    // border: 1px solid white;
+    background-color: $background-color;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1fr);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-link {
+    margin-top: auto;
+    font-size: $p-larger-font-size;
+}
+
+.landing-page {
+    gap: 2em 2em;
+
+    h1 {
+        border-bottom: 2px dashed $accent-color;
+        display: inline;
+    }
+
+    div {
+        padding: 1.5em;
+    }
+}
+
+.h1 {
+    grid-column: span 3;
+    text-align: center;
+    background-color: $background-color;
+}
+
+.box {
+    border-radius: 2px;
+}
+
+.box:hover:not(.h1) {
+    transition-duration: .3s;
+    filter: brightness(1.1) drop-shadow(1px 1px 10px $accent-color-hidden-2);
+    cursor: pointer;
+}
+
+.box:not(:hover) {
+    transition-duration: .3s;
+}
+
+.css {
+    grid-column: span 2;
+}
+
+.html {
+    grid-column: span 1;
+}
+
+.php {
+    grid-column: span 1;
+}
+
+.js {
+    grid-column: span 2;
+}
+
+.git {
+    grid-column: span 3;
+}
+
+.python {
+    grid-column: span 2;
+}
+
+.sqlite {
+    grid-column: span 1;
+}
+
+.tech-list {
+    width: 20%;
+    padding: 1.5em;
+}
+
+.tech-list-item {
+    margin: 0;
+    padding: 0;
+}
+
+.technology {
+    width: 80%;
+    padding: 1.5em;
+}
+
+@media screen and (max-width: 767px) {
+    .box {
+        grid-column: span 3;
+    }
+}

@@ -2,11 +2,15 @@ $font-color: #000;
 $font-alternative-color: #fffffff0;
 $accent-color: #02edab;
 $accent-color-2: rgb(255 210 60);
+$accent-color-3: rgba(255, 233, 161, 0.113);
+$accent-color-4: #02edaa62;
 $accent-color-hidden: #6c86ce;
+$accent-color-hidden-2: #6c86ce71;
 $background-color: #4d47a3;
 $background-alternative-color: #241751;
+$background-alternative-color-2: #4d47a39c;
 $gradient: linear-gradient(90deg, rgba(255,210,60,1) 0%, rgba(2,237,171,1) 100%);
-
+$gradient-2: linear-gradient(301deg, rgba(36,23,81,1) 0%, rgba(77,71,163,1) 100%);
 // $font-color: #000;
 // $font-alternative-color: #fff;
 // $accent-color: #ee6c4d;
@@ -16,3 +20,5 @@ $gradient: linear-gradient(90deg, rgba(255,210,60,1) 0%, rgba(2,237,171,1) 100%)
 $header-font: 'Poppins';
 $p-font: 'Poppins';
 $line: 'Linefont';
+$p-font-size: 1.25rem;
+$p-larger-font-size: 1.5rem;

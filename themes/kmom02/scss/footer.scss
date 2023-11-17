@@ -4,9 +4,10 @@
     align-items: center;
     padding: 2% 0;
     border-top: 2px dashed $accent-color;
-    color: $accent-color-hidden;
+    margin-top: 2%;
 
     p {
         margin: 0;
+        color: $accent-color-hidden;
     }
 }
