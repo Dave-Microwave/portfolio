@@ -6669,7 +6669,6 @@ Testa runt tillsammans med media queries. Lycka till!
 .h1 {
   grid-column: span 3;
   text-align: center;
-  background-color: #4d47a3;
 }
 
 .box {
@@ -6717,20 +6716,43 @@ Testa runt tillsammans med media queries. Lycka till!
 .tech-list {
   width: 20%;
   padding: 1.5em;
+  background-color: #4d47a3;
+  border-radius: 2px;
+  margin-right: 2em;
 }
 
 .tech-list-item {
   margin: 0;
-  padding: 0;
+  padding: 1rem 0 0;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  width: 80%;
+}
+
+.tech-list-item:hover {
+  filter: brightness(1.1) drop-shadow(1px 1px 5px #241751);
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+  transform-origin: top left;
+  border-bottom: 1px dashed #02edab;
 }
 
 .technology {
   width: 80%;
   padding: 1.5em;
+  background-color: #4d47a3;
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 767px) {
   .box {
     grid-column: span 3;
+  }
+  .tech-list {
+    display: none;
+  }
+  .technology {
+    margin: 0 auto;
+    width: 100%;
   }
 }
