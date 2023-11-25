@@ -1,0 +1,22 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Linefont:wght@100&family=Montserrat:wght@200;400&family=Poppins:wght@200;400&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+
+@import 'blockquotes';
+@import 'code';
+@import 'img';
+@import 'base';
+@import 'footer';
+@import 'navbar';
+@import 'typography';
+@import 'test';
+@import 'technology';
+@import 'mobile-menu';
+
