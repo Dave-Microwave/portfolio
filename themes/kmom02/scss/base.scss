@@ -1,5 +1,5 @@
 body {
-    background-color: $background-alternative-color;
+    background: $background-alternative-color;
     margin: 0 auto;
     width: 80%;
 }
@@ -19,9 +19,21 @@ div {
 
 a {
     text-decoration: none;
-    color: $accent-color;
+    color: $link-color;
 }
 
 a:active {
     color: $accent-color-2;
+}
+
+li {
+    color: $font-alternative-color;
+}
+
+i {
+    color: $icon-color;
+}
+
+i:active {
+    color: $icon-active-color
 }

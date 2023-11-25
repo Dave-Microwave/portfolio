@@ -3,10 +3,13 @@ Logo: image/mountain.png?w=200
 David: image/david.jpg
 Tagline: ""
 Social:
-    - title: Länk till mitt github repo.
+    - title: GitHub
       url: https://github.com/Dave-Microwave/portfolio
       icon: fab fa-github
-    - title: Music.
-      url: https://youtu.be/Lg21MW4_suQ?si=ECK71Cn5BAy4MMtz
-      icon: fas fa-music
+    - title: Theme swap
+      url: ?action=theme
+      icon: fas fa-cloud-moon
+    - title: Destroy session
+      url: ?action=session_destroy
+      icon: fas fa-eraser
 ---

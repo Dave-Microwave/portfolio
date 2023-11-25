@@ -10,12 +10,21 @@ $background-color: #4d47a3;
 $background-alternative-color: #241751;
 $background-alternative-color-2: #4d47a39c;
 
+$link-color: #02edab;
+$active-link-color: rgb(255 210 60);
+
+$icon-color: #02edab;
+$icon-active-color: rgb(255 210 60);
+
+$code-background-color: #fff;
+$code-color: #333;
+
 $gradient: linear-gradient(90deg, rgba(255,210,60,1) 0%, rgba(2,237,171,1) 100%);
 $gradient-2: linear-gradient(301deg, rgba(36,23,81,1) 0%, rgba(77,71,163,1) 100%);
 
 
-$header-font: 'Poppins';
-$p-font: 'Poppins';
+$header-font: 'Orbitron', serif;
+$p-font: 'Poppins', serif;
 $line: 'Linefont';
 $p-font-size: 1.25rem;
 $p-larger-font-size: 1.5rem;
