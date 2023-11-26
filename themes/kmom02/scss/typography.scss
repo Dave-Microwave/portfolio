@@ -43,3 +43,9 @@ h4 {
 .linefont {
     font-family: $line;
 }
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+}

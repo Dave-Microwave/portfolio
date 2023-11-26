@@ -6524,6 +6524,17 @@ i:active {
   color: rgb(255, 210, 60);
 }
 
+hr {
+  margin: 0;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.9411764706);
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    background-color: transparent;
+  }
+}
 .footer {
   display: flex;
   justify-content: space-between;
@@ -6758,6 +6769,7 @@ Testa runt tillsammans med media queries. Lycka till!
   .technology {
     margin: 0 auto;
     width: 100%;
+    background-color: transparent;
   }
 }
 p, li {
@@ -6802,6 +6814,11 @@ h4 {
   font-family: "Linefont";
 }
 
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;

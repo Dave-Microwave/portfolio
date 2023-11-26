@@ -1,3 +1,5 @@
+<main markdown="1">
+
 Utvärdering av webbplatsers känsla
 ==================================
 
@@ -14,15 +16,13 @@ Sverige har många aktörer som kan räknas som e-handelsmarknadsplatser[^1], me
 2. Fyndiq
 3. CDON[^2]
 
-Omsättningsdatan kommer främst från 2021-års bokslut. Värt att notera är att Elgiganten inte ingår i topplistan, och detta trots att företaget omsatte nästan 16 000 miljoner kronor 2021.[^3] Detta tyder på att datan från Ehandel skulle kunna vara felaktig. Eftersom källan i övrigt bedöms vara av god kvalitet har artikeln ändå använts för att ta fram landets tre största e-handelsplattformar.
-
 Metod
 -----------------------
 
 ### Verktyg
-För att genomföra undersökningen används Chrome DevTools - inbyggd funktionalitet i webbläsaren Google Chrome för utvecklare.[^4] Syftet med Chrome DevTools är att undersöka vilka typsnitt de olika webbplatserna använder sig av.
+För att genomföra undersökningen används Chrome DevTools - inbyggd funktionalitet i webbläsaren Google Chrome för utvecklare.[^3] Syftet med Chrome DevTools är att undersöka vilka typsnitt de olika webbplatserna använder sig av.
 
-Adobe Color är en webbplats för att skapa färgpaletter.[^5] Adobe Color används i undersökningen som ett hjälpmedel för att förstå tanken bakom webbplatsernas färgval. För att säkerställa att rätt färger jämförs används Eye Dropper som är ett tillägg i Chrome[^6], detta verktyg gör att de exakta färgkoderna som används kan hämtas från respektive webbplats.
+Adobe Color är en webbplats för att skapa färgpaletter.[^4] Adobe Color används i undersökningen som ett hjälpmedel för att förstå tanken bakom webbplatsernas färgval. För att säkerställa att rätt färger jämförs används Eye Dropper som är ett tillägg i Chrome[^5], detta verktyg gör att de exakta färgkoderna som används kan hämtas från respektive webbplats.
 
 ### Genomförande
 Uppgiften genomfördes genom att webbplatsernas respektive startsida besöks. För att fånga upp alla typsnitt som används på startsidan används Chrome DevTools genom att man navigerar till fliken "Elements" och klickar på HTML-taggen "body". Därefter navigerar man till fliken "Computed" och öppnar menyn "font-family".
@@ -103,19 +103,25 @@ Analys & diskussion
 
 Dagens datum är 2023-11-25. Det är signifikant eftersom det dels närmar sig jul (en stor shopping-högtid) och dels för att Black Friday (också något av en shopping-högtid) inföll igår. Detta är de stora e-handelsmarknadsplatserna medvetna om och har därför i stor utsträckning anpassat designen på sina webbplatser för att signalera till sina kunder att de har bra erbjudanden. Amazon har därför frångått sin kännetecknande gula färg, CDON har frångått sin kännetecknande gröna färg och Fyndiq har blandat in mer svart på startsidan. Jag var medveten om detta när jag valde den här typen av hemsidor, men jag blev ändå lite förvånad över att de i så stor utsträckning har frångått sina klassiska varumärkesfärger. Om jag hade fått chansen att råda dem i deras designprocess hade jag förespråkat att man skulle behållit mer av sina vanliga färger i kampanj-designerna.
 
-Fyndiq och CDON använder båda olika sans-serif typsnitt, medan Amazon använder ett eget typsnitt - Amazon Ember.[^7] Jag bedömer att samtliga företag vill signalera modernitet, kanske eftersom de till stor del säljer varor som använder modern teknik.
+Fyndiq och CDON använder båda olika sans-serif typsnitt, medan Amazon använder ett eget typsnitt - Amazon Ember.[^6] Jag bedömer att samtliga företag vill signalera modernitet, kanske eftersom de till stor del säljer varor som använder modern teknik.
+
+### Källor
+
+Omsättningsdatan kommer främst från 2021-års bokslut. Värt att notera är att Elgiganten inte ingår i topplistan, trots att företaget omsatte nästan 16 miljarder SEK 2021.[^7] Detta tyder på att datan från Ehandel skulle kunna vara felaktig.
 
 <!-- Referenser -->
 
 [^1]: [Ehandel, Lista: Här är alla marknadsplatser i Norden, [hämtad 2023-11-25]](https://www.ehandel.se/har-ar-alla-marknadsplatser-i-norden-resurseffektivt-verktyg)
 [^2]: [Ehandel, Topplista: Här är Sveriges 100 största e-handlare, [hämtad 2023-11-25]](https://www.ehandel.se/forum/har-ar-sveriges-100-storsta-e-handlare/)
-[^3]: [Alla Bolag, Elgiganten Aktiebolag, [hämtad 2023-11-25]](https://www.allabolag.se/5564714474/bokslut)
-[^4]: [Chrome DevTools, [hämtad 2023-11-25]](https://developer.chrome.com/docs/devtools/)
-[^5]: [Adobe Color, [hämtad 2023-11-25]](https://color.adobe.com/sv/create/color-wheel)
-[^6]: [Eye Dropper, [hämtad 2023-11-25]](https://eyedropper.org/)
-[^7]: [Amazon Ember, [hämtad 2023-11-25]](https://developer.amazon.com/en-US/alexa/branding/echo-guidelines/identity-guidelines/typography)
+[^3]: [Chrome DevTools, [hämtad 2023-11-25]](https://developer.chrome.com/docs/devtools/)
+[^4]: [Adobe Color, [hämtad 2023-11-25]](https://color.adobe.com/sv/create/color-wheel)
+[^5]: [Eye Dropper, [hämtad 2023-11-25]](https://eyedropper.org/)
+[^6]: [Amazon Ember, [hämtad 2023-11-25]](https://developer.amazon.com/en-US/alexa/branding/echo-guidelines/identity-guidelines/typography)
+[^7]: [Alla Bolag, Elgiganten Aktiebolag, [hämtad 2023-11-25]](https://www.allabolag.se/5564714474/bokslut)
 
 Författare
 -----------------------
 
 David Allert.
+
+</main>
