@@ -5,11 +5,11 @@ body {
 }
 
 main {
-    background-color: $background-color;
+    background-color: transparent;
     padding: 1.5em;
     margin: auto;
     color: $font-alternative-color;
-    min-height: 50vh;
+    min-height: 59vh;
     border-radius: 2px;
 }
 
@@ -44,8 +44,7 @@ hr {
     color: $font-alternative-color;
 }
 
-@media screen and (max-width: 767px) {
-    main {
-        background-color: transparent;
-    }
+.load-speed-data {
+    width: 82%;
+    height: 50vh;
 }
