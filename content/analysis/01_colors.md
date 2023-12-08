@@ -1,7 +1,8 @@
-<main markdown="1">
+<main>
 
-Utvärdering av webbplatsers känsla
-==================================
+<article class="text-article" markdown="1">
+
+<h1 class="h1-border-bottom">Utvärdering av webbplatsers känsla</h1>
 
 I denna rapport ska tre webbplatser utvärderas, i syfte att undersöka och jämföra webbplatsernas färgval, typsnitt och känsla utifrån ett designperspektiv.
 
@@ -123,5 +124,7 @@ Författare
 -----------------------
 
 David Allert.
+
+</article>
 
 </main>

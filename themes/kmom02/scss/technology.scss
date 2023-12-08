@@ -1,5 +1,4 @@
-.grid div {
-    // border: 1px solid white;
+.grid div:not(.h1) {
     background-color: $background-color;
 }
 
@@ -32,14 +31,14 @@
         display: inline;
     }
 
-    div {
+    div:not(:first-of-type) {
         padding: 1.5em;
     }
 }
 
 .h1 {
     grid-column: span 3;
-    text-align: center;
+    text-align: left;
 }
 
 .box {
@@ -56,32 +55,36 @@
     transition-duration: .3s;
 }
 
-.css {
+div .box.css {
     grid-column: span 2;
+    background-color: $box-color-1;
 }
 
-.html {
+div .box.html {
     grid-column: span 1;
 }
 
-.php {
+div .box.php {
     grid-column: span 1;
+    background-color: $box-color-2;
 }
 
 .js {
     grid-column: span 2;
 }
 
-.git {
+div .box.git {
     grid-column: span 3;
+    background-color: $box-color-1;
 }
 
 .python {
     grid-column: span 2;
 }
 
-.sqlite {
+div .box.sqlite {
     grid-column: span 1;
+    background-color: $box-color-2;
 }
 
 .tech-list {
@@ -118,7 +121,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .box {
+    div .main > div > div .box {
         grid-column: span 3;
     }
 

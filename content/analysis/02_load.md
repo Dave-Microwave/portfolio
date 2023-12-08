@@ -1,5 +1,8 @@
-Utvärdering av webbplatsers hastighet
-=======================
+<main>
+
+<article class="text-article" markdown="1">
+
+<h1 class="h1-border-bottom">Utvärdering av webbplatsers hastighet</h1>
 
 I denna rapport ska tre webbplatser utvärderas, i syfte att undersöka och jämföra webbplatsernas hastighet.
 
@@ -77,3 +80,7 @@ David Allert.
 [^3]: [Chrome DevTools, [hämtad 2023-12-03]](https://developer.chrome.com/docs/devtools/)
 [^4]: [Google PageSpeed Insights, [hämtad 2023-12-03]](https://pagespeed.web.dev/)
 [^5]: [Web Vitals, [hämtad 2023-12-03]](https://web.dev/articles/vitals)
+
+
+</article>
+</main>

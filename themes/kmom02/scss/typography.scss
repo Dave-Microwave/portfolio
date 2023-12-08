@@ -9,6 +9,11 @@ p {
     margin-bottom: 1.875rem;
 }
 
+.h1-border-bottom {
+    border-bottom: 2px dashed $accent-color;
+    display: inline;
+}
+
 h1,
 h2,
 h3,

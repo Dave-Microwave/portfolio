@@ -16,4 +16,3 @@ p {
     color: blue;
 }
 ```
-

@@ -6,17 +6,18 @@
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    border-top: 2px dashed $accent-color;
-    padding: 2% 0;
-    margin: 2% auto;
+    border-top: 1px solid $active-link-color;
+    padding: 2% 4%;
+    margin: 0 auto;
 
-    div .social {
+    .social {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
+        align-items: center;
         width: auto;
-        gap: 10%;
+        gap: 15%;
     }
 
     p {
@@ -28,7 +29,6 @@
 
 @media screen and (max-width: 767px) {
     .footer {
-        margin: 10% auto;
         padding: 10% 0;
     }
 }

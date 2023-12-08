@@ -1,16 +1,23 @@
 body {
     background: $background-alternative-color;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
 }
 
-main {
+.main {
     background-color: transparent;
     padding: 1.5em;
-    margin: auto;
+    margin: 2rem auto;
     color: $font-alternative-color;
     min-height: 59vh;
-    border-radius: 2px;
+    width: 80%;
+    display: flex;
+}
+
+.text-article {
+    width: 80%;
+    margin: 0 auto;
+    align-self: center;
 }
 
 div {
@@ -21,6 +28,10 @@ a {
     text-decoration: none;
     color: $link-color;
 }
+
+// p a {
+//     text-decoration: underline;
+// }
 
 a:active {
     color: $accent-color-2;
@@ -47,4 +58,14 @@ hr {
 .load-speed-data {
     width: 82%;
     height: 50vh;
+}
+
+.text-article a {
+    text-decoration: underline dashed;
+}
+
+@media screen and (max-width: 767px) {
+    .text-article {
+        width: 100%;
+    }
 }

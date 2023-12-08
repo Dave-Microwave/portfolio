@@ -3,6 +3,7 @@
 <body>
     {% include 'incl/nav.twig' %}
 
+<div class="main">
 <div class="flex-row">
     <div class="tech-list flex">
         <h1>Tekniker</h1>
@@ -10,9 +11,10 @@
         <p class="tech-list-item" onclick="location.href='{{ page.url }}'"><a href="{{ page.url }}">{{ page.title }}</a></p>
         {% endfor %}
     </div>
-    <div class="main technology" role="main">
+    <div class="technology" role="main">
         {{ content }}
     </div>
+</div>
 </div>
     {% include 'incl/footer.twig' %}
 </body>
